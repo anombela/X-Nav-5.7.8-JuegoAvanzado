@@ -1,0 +1,40 @@
+#reglas{
+	position: absolute;
+	 top:  10px; 
+  	left: 550px;
+   	border-radius: 30px;  /*borde redondeado*/
+	box-shadow: 20px 20px 20px white;    /*sombreado*/
+	text-shadow: 15px 15px 15px #333;
+	background: linear-gradient(to top, #444444, #999999);
+	border-color: rgba(1,1,1,0.2);   /*el alpha*/
+	width: 512px;
+	height: 480px;
+}
+h1{
+	margin-left: 20px;
+	text-decoration: underline ;
+}
+li{
+	margin-left: 30px;
+}
+#pause{
+	position: absolute;
+	top:  180px; 
+  	left: 182px; /*512/2 + */
+  	color: red;
+  	font-size: 60px;
+}
+#gameover{
+	position: absolute;
+	top:  155px; 
+  	left: 55px; /*512/2 + */
+  	color: red;
+  	font-size: 60px;
+}
+#nmain{
+	position: absolute;
+	top:  265px; 
+  	left: 95px; /*512/2 + */
+  	font-size: 20px;
+  
+}
